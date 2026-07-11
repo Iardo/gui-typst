@@ -1,6 +1,6 @@
-#import "./@global.typ": *
+#import "../global/constants.typ": *
 
-#let frontpage(
+#let cover(
   title: "",
   auth:  (),
   uuid:  "",

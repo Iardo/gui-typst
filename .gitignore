@@ -1,5 +1,7 @@
 # include folders:
 # ignored folders:
+__pycache__
+.output
 
 # --------------------
 # include files:

@@ -1,3 +1,5 @@
+#import "../global/constants.typ": *
+
 #let footer_el(
   body,
 ) = {[

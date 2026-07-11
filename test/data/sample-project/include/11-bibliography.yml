@@ -1,0 +1,35 @@
+# Design Systems
+ds-atlassian:
+  type: Web
+  title: "Atlassian: Atlassian Design System Provides tools and resources to help teams build user interfaces that are consistent, accessible, and delightful."
+  url: https://atlassian.design/
+
+ds-base:
+  type: Web
+  title: "Base: Uber’s internal design system aimed at creating consistent and scalable user experiences across their various transportation and delivery services."
+  url: https://base.uber.com/6d2425e9f/p/294ab4-base-design-system
+
+ds-carbon:
+  type: Web
+  title: "Carbon: IBM’s open-source design system focused on creating usable and accessible experiences across various platforms and devices, particularly in enterprise contexts."
+  url: https://carbondesignsystem.com/
+
+ds-material:
+  type: Web
+  title: "Material: Google's widely adopted design system emphasizing a unified visual language with clear hierarchy, motion, and tactile elements for digital products."
+  url: https://m3.material.io/
+
+ds-polaris:
+  type: Web
+  title: " Polaris: Shopify's design system specifically tailored for building commerce-focused applications with a focus on ease of use and merchant empowerment."
+  url: https://shopify.dev/docs/api/app-home/web-components
+
+ds-protocol:
+  type: Web
+  title: "Protocol: Mozilla's design system that prioritizes accessibility, inclusivity, and a modular approach to building web interfaces."
+  url: https://protocol.mozilla.org/
+
+ds-spectrum:
+  type: Web
+  title: "Spectrum: A comprehensive design system focused on providing reusable UI components and guidelines for building consistent digital experiences across Adobe products."
+  url: https://opensource.adobe.com/spectrum-web-components/

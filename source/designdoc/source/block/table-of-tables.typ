@@ -1,6 +1,6 @@
-#import "./@global.typ": *
+#import "../global/constants.typ": *
 
-#let table-of-figures(
+#let table-of-tables(
   hide: false,
   body,
 ) = {[
@@ -10,8 +10,8 @@
         #block(width: 100%)[
           #show outline: set heading(numbering: number-heading, outlined: true)
           #outline(
-            target: figure.where(kind: image),
-            title: [Lista de Figuras],
+            target: figure.where(kind: table),
+            title: [Lista de Tablas],
           )
         ]
       ]

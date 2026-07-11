@@ -1,4 +1,4 @@
-#import "./@global.typ": *
+#import "../global/constants.typ": *
 
 #let separator_with_title(
   title: "",

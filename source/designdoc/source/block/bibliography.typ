@@ -1,4 +1,4 @@
-#import "./@global.typ": *
+#import "../global/constants.typ": *
 
 #let references(
   hide: false,
@@ -12,7 +12,7 @@
           #show bibliography: set text(font: font-serif, size: textsize-bibliography)
           #show bibliography: set heading(numbering: "1.1", outlined: true)
           #bibliography(
-            data,
+            "../../../../" + data,
             title: [Bibliografía],
             style: "ieee",
           )

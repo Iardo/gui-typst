@@ -1,3 +1,6 @@
+// Code
+#let code-theme = "../../static/theme/eiffel.tmtheme"
+
 // Color
 // ----
 #let color-link          = rgb("#1565C0")
@@ -69,39 +72,3 @@
 #let textsize-bibliography  = 0.9em
 #let textsize-small         = 0.8em
 #let textsize-table         = 0.9em
-
-
-// Utilities
-// ---------------
-// Add reference by name
-// ----
-#let ref(
-  name: ""
-) = {[#box[
-  #text(fill: color-link)[#super[#strong[#cite(label(name))]]]
-]]}
-
-// Starts page numbering
-// ----
-#let init_page_numbering() = {[
-  #counter(page).update(int(number-page))
-]}
-
-// Style table.header
-// ----
-// https://github.com/typst/typst/issues/3640#issuecomment-2395133217
-// https://github.com/typst/typst/issues/3640#issuecomment-2423819257
-#let table-header(..headers) = table.header(
-  ..headers.pos().map(cell => {
-    if cell.func() == table.cell {
-      let fields = cell.fields()
-      table.cell(fill: color-blue-gray-50, [
-        #text(font: font-heading, size: textsize-table, weight: 600)[#fields.remove("body")] 
-      ], ..fields)
-    } else {
-      table.cell(fill: color-blue-gray-50)[
-        #text(font: font-heading, size: textsize-table, weight: 600)[#cell]
-      ]
-    }
-  }),
-)
