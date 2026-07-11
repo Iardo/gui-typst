@@ -47,12 +47,28 @@
 #let strokesize-separator = 0.5pt
 #let strokesize-table     = 0.5pt
 
+// Heading
+#let heading-size-1       = 1.2em
+#let heading-size-2       = 0.95em
+#let heading-size-3       = 0.95em
+#let heading-size-4       = 0.8em
+#let heading-size-5       = 0.8em
+#let heading-size-6       = 0.8em
+
+#let heading-weight-1       = "bold"
+#let heading-weight-2       = "bold"
+#let heading-weight-3       = "regular"
+#let heading-weight-4       = "regular"
+#let heading-weight-5       = "regular"
+#let heading-weight-6       = "regular"
+
 // Text Size
-#let textsize-link      = 0.8em
-#let textsize-outline   = 1.2em
-#let textsize-paragraph = 1.0em
-#let textsize-small     = 0.8em
-#let textsize-table     = 0.9em
+#let textsize-link          = 0.8em
+#let textsize-outline       = 1.2em
+#let textsize-paragraph     = 1.15em
+#let textsize-bibliography  = 0.9em
+#let textsize-small         = 0.8em
+#let textsize-table         = 0.9em
 
 
 // Utilities

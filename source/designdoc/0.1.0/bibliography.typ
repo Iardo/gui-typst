@@ -9,7 +9,7 @@
     page(
       align(left)[
         #block(width: 100%)[
-          #show bibliography: set text(font: font-serif, size: textsize-paragraph)
+          #show bibliography: set text(font: font-serif, size: textsize-bibliography)
           #show bibliography: set heading(numbering: "1.1", outlined: true)
           #bibliography(
             data,

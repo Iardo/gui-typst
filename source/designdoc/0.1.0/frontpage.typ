@@ -44,20 +44,21 @@
       #block(width: 100%)[
         // Caption
         #set par(leading: 0.32em)
-        #block(below: 6.0mm)[
-          #text(size: 1.4em)[#underline(offset: 2pt)[#box[
+        #block(below: 14mm)[
+          #text(size: 1.75em)[#underline(offset: 2pt)[#box[
             #caption
           ]]]
         ]
         // Title
-        #block(below: 5.5mm)[
+        #block(below: 10mm)[
           #text(size: 4.0em, hyphenate: true, weight: 500)[#box[
             #title
           ]]
         ]
         // Abstract
         #if abstract != none {
-          block(below: 1.0cm, spacing: 0.32em)[
+          set par(leading: 0.5em)
+          block(below: 1.0cm, spacing: 1em)[
             #set text(size: 1.2em, hyphenate: true)
             #abstract
           ]
